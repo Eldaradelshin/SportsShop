@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6296257F210E597400B87577 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296257E210E597400B87577 /* Utils.swift */; };
 		62962581210E5B5600B87577 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62962580210E5B5600B87577 /* Product.swift */; };
+		62962585210E745A00B87577 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62962584210E745A00B87577 /* Logger.swift */; };
 		62A7CDF1210D333F00678B8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7CDF0210D333F00678B8B /* AppDelegate.swift */; };
 		62A7CDF3210D333F00678B8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7CDF2210D333F00678B8B /* ViewController.swift */; };
 		62A7CDF6210D333F00678B8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A7CDF4210D333F00678B8B /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		6296257E210E597400B87577 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		62962580210E5B5600B87577 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		62962584210E745A00B87577 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		62A7CDED210D333F00678B8B /* SportsShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A7CDF0210D333F00678B8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A7CDF2210D333F00678B8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				62A7CDFC210D334000678B8B /* Info.plist */,
 				6296257E210E597400B87577 /* Utils.swift */,
 				62962580210E5B5600B87577 /* Product.swift */,
+				62962584210E745A00B87577 /* Logger.swift */,
 			);
 			path = SportsShop;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62A7CE03210D41BC00678B8B /* ProductTableCell.swift in Sources */,
+				62962585210E745A00B87577 /* Logger.swift in Sources */,
 				62A7CDF3210D333F00678B8B /* ViewController.swift in Sources */,
 				62962581210E5B5600B87577 /* Product.swift in Sources */,
 				62A7CDF1210D333F00678B8B /* AppDelegate.swift in Sources */,

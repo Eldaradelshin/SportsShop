@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		628FE584211E99E900EFE2F4 /* ChangeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628FE583211E99E900EFE2F4 /* ChangeRecord.swift */; };
+		62915096211C7E3F007E3E53 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62915095211C7E3F007E3E53 /* NetworkConnection.swift */; };
+		62915098211C82C0007E3E53 /* NetworkPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62915097211C82C0007E3E53 /* NetworkPool.swift */; };
+		6291509A211D5F01007E3E53 /* ProductDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62915099211D5F01007E3E53 /* ProductDataStore.swift */; };
+		6291509C211DA864007E3E53 /* StockValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291509B211DA864007E3E53 /* StockValueFormatter.swift */; };
+		6291509E211DAD5A007E3E53 /* StockValueFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291509D211DAD5A007E3E53 /* StockValueFactories.swift */; };
 		6296257F210E597400B87577 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296257E210E597400B87577 /* Utils.swift */; };
 		62962581210E5B5600B87577 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62962580210E5B5600B87577 /* Product.swift */; };
 		62962585210E745A00B87577 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62962584210E745A00B87577 /* Logger.swift */; };
@@ -19,6 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		628FE583211E99E900EFE2F4 /* ChangeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRecord.swift; sourceTree = "<group>"; };
+		62915095211C7E3F007E3E53 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		62915097211C82C0007E3E53 /* NetworkPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPool.swift; sourceTree = "<group>"; };
+		62915099211D5F01007E3E53 /* ProductDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataStore.swift; sourceTree = "<group>"; };
+		6291509B211DA864007E3E53 /* StockValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockValueFormatter.swift; sourceTree = "<group>"; };
+		6291509D211DAD5A007E3E53 /* StockValueFactories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockValueFactories.swift; sourceTree = "<group>"; };
 		6296257E210E597400B87577 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		62962580210E5B5600B87577 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		62962584210E745A00B87577 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -72,6 +84,12 @@
 				6296257E210E597400B87577 /* Utils.swift */,
 				62962580210E5B5600B87577 /* Product.swift */,
 				62962584210E745A00B87577 /* Logger.swift */,
+				62915095211C7E3F007E3E53 /* NetworkConnection.swift */,
+				62915097211C82C0007E3E53 /* NetworkPool.swift */,
+				62915099211D5F01007E3E53 /* ProductDataStore.swift */,
+				6291509B211DA864007E3E53 /* StockValueFormatter.swift */,
+				6291509D211DAD5A007E3E53 /* StockValueFactories.swift */,
+				628FE583211E99E900EFE2F4 /* ChangeRecord.swift */,
 			);
 			path = SportsShop;
 			sourceTree = "<group>";
@@ -147,11 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62915098211C82C0007E3E53 /* NetworkPool.swift in Sources */,
+				6291509C211DA864007E3E53 /* StockValueFormatter.swift in Sources */,
+				6291509A211D5F01007E3E53 /* ProductDataStore.swift in Sources */,
+				6291509E211DAD5A007E3E53 /* StockValueFactories.swift in Sources */,
 				62A7CE03210D41BC00678B8B /* ProductTableCell.swift in Sources */,
 				62962585210E745A00B87577 /* Logger.swift in Sources */,
 				62A7CDF3210D333F00678B8B /* ViewController.swift in Sources */,
 				62962581210E5B5600B87577 /* Product.swift in Sources */,
+				62915096211C7E3F007E3E53 /* NetworkConnection.swift in Sources */,
 				62A7CDF1210D333F00678B8B /* AppDelegate.swift in Sources */,
+				628FE584211E99E900EFE2F4 /* ChangeRecord.swift in Sources */,
 				6296257F210E597400B87577 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
